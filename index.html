@@ -35,12 +35,35 @@
             background-color: #3f3f3f;
         }
 
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-info img {
+            margin-left: 10px;
+            margin-top: 0px; /* Отступ сверху */
+            max-width: 200px;
+            height: auto;
+        }
+
+        .user-info h1 {
+            margin-right: 5em;
+        }
+
+        .image-wrapper {
+            float: right;
+        }
     </style>
 </head>
 <body>
-    <h1>Бот создан пользователем 1wenly</h1>
+    <div class="user-info">
+        <h1>Бот создан пользователем 1wenly</h1>
+        <div class="image-wrapper">
+            <img src="file:///C:/Users/PC-User/Downloads/ezgif.com-gif-maker.webp" alt="123">
+        </div>
+    </div>    
     <p>Префикс команд бота ";"</p>
-
     <h2 style="margin-top: 10px;">Полезные</h2>
     <table class="table">
         <colgroup>
@@ -57,7 +80,6 @@
             <th>Алиасы</th>
             <th>КД</th>
         </tr>
-        <tr>
             <td>1</td>
             <td>user</td>
             <td>Информация о указанном пользователе.</td>
@@ -106,6 +128,12 @@
             <td>wiki</td>
             <td>10</td>
         </tr>
+        <tr>
+            <td>8</td>
+            <td>remind</td>
+            <td>Напоминание себе либо другому пользователю</td>
+            <td>-</td>
+            <td>10</td>
     </table>
     <h2 style="margin-top: 10px;">Развлекательные</h2>
     <table class="table">
